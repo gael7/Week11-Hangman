@@ -1,0 +1,19 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "This app will let you play hangman",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gael7/Week11-Hangman.git"
+  },
+  "author": "Gael Arrambide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gael7/Week11-Hangman/issues"
+  },
+  "homepage": "https://github.com/gael7/Week11-Hangman#readme"
+}
