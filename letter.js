@@ -8,6 +8,7 @@ var letter={
   var wordChoosen=word.replace(/./g, "-");
   return wordChoosen;
   }
+  
 };
 
 
