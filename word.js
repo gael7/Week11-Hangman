@@ -21,6 +21,7 @@ askLetter = function(choosenWord, word) {
         }]).then(function(answers) {
             console.log(answers.letter);
             var newWord=checkLetter(answers.letter, choosenWord, word);
+            console.log("new word: "+newWord);
             num++;
             askLetter(choosenWord, newWord);
         });

@@ -4,7 +4,7 @@
 var randomWord = require('./game.js');
 var letter = require('./letter.js');
 var word = require('./word.js');
-console.log(randomWord, letter, word);
+//console.log(randomWord, letter, word);
 var words = randomWord.randomWord();
 var choosenWord = letter.showWord(words);
 console.log("Guess this word: " + choosenWord + "\nIt has " + choosenWord.length + " letters");
